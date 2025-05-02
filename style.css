@@ -26,6 +26,7 @@ main {
 footer {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 
 button {
@@ -33,26 +34,47 @@ button {
   min-height: 2em;
 }
 
+a {
+  display: flex;
+  justify-content: center;
+  max-width: 150px;
+  max-height: 40px;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  border-top: -1px;
+  border-bottom: -1px;
+  background-color: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .artdiv {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 100vh;
+  padding-left: 4em;
+  padding-bottom: 5em;
+  gap: 0.8em;
 }
 
 .topdiv {
-  background-image: url(./images/galaxy.png);
+  background-image: url(./images/galaxy-sm.png);
   background-size: cover;
 }
 
 .middiv {
-  background-image: url(./images/landscape.png);
+  background-image: url(./images/landscape-sm.png);
   background-size: cover;
   background-position: bottom;
 }
 
 .botdiv {
-  background-image: url(./images/eclipse.png);
+  background-image: url(./images/eclipse-sm.png);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
