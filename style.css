@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  padding-top: 2em;
+  padding-left: 3em;
+}
+
+nav {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 10em;
+  min-height: 2em;
+}
+
+.artdiv {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+
+  height: 100vh;
+}
+
+.topdiv {
+  display: flex;
+}
