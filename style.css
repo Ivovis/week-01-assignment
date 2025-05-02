@@ -5,16 +5,12 @@
 }
 
 header {
+  color: white;
   position: fixed;
   display: flex;
+  justify-content: center;
   padding-top: 2em;
-  padding-left: 3em;
-}
-
-nav {
-  display: flex;
-  gap: 3em;
-  align-items: center;
+  padding-left: 5em;
 }
 
 main {
@@ -34,21 +30,30 @@ button {
   min-height: 2em;
 }
 
-a {
+nav {
+  color: white;
+  padding-left: 4em;
   display: flex;
-  justify-content: center;
-  max-width: 150px;
-  max-height: 40px;
-  border: 2px;
-  border-style: solid;
-  border-color: white;
-  border-top: -1px;
-  border-bottom: -1px;
-  background-color: red;
+  align-items: center;
 }
 
-html {
-  scroll-behavior: smooth;
+.navlink {
+  display: inline-block;
+  max-width: 170px;
+  color: white;
+  padding-left: 2rem;
+  text-decoration: none;
+}
+
+.artlink {
+  display: inline-block;
+  max-width: 170px;
+  color: white;
+  border: solid;
+  border-color: white;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  text-decoration: none;
 }
 
 .artdiv {
@@ -62,19 +67,26 @@ html {
 }
 
 .topdiv {
+  color: white;
   background-image: url(./images/galaxy-sm.png);
   background-size: cover;
 }
 
 .middiv {
+  color: white;
   background-image: url(./images/landscape-sm.png);
   background-size: cover;
   background-position: bottom;
 }
 
 .botdiv {
+  color: white;
   background-image: url(./images/eclipse-sm.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
