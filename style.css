@@ -36,12 +36,23 @@ button {
 .artdiv {
   display: flex;
   flex-direction: column;
-
   justify-content: flex-end;
-
   height: 100vh;
 }
 
 .topdiv {
-  display: flex;
+  background-image: url(./images/galaxy.png);
+  background-size: cover;
+}
+
+.middiv {
+  background-image: url(./images/landscape.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.botdiv {
+  background-image: url(./images/eclipse.png);
+  background-size: cover;
+  background-position: center;
 }
