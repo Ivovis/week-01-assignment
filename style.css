@@ -5,44 +5,42 @@
 }
 
 header {
-  color: white;
   position: fixed;
   display: flex;
   justify-content: center;
   padding-top: 2em;
-  padding-left: 5em;
+  padding-left: 3em;
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 2em;
+  color: white;
+}
+
+.navlink {
+  padding-left: 2rem;
+  text-decoration: none;
+  color: white;
 }
 
 main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  min-height: 20em;
 }
 
 footer {
   display: flex;
   justify-content: center;
-  background-color: black;
-}
-
-button {
-  width: 10em;
-  min-height: 2em;
-}
-
-nav {
-  color: white;
-  padding-left: 4em;
-  display: flex;
   align-items: center;
-}
-
-.navlink {
-  display: inline-block;
-  max-width: 170px;
-  color: white;
-  padding-left: 2rem;
-  text-decoration: none;
+  gap: 3em;
+  background-color: black;
+  min-height: 10em;
 }
 
 .artlink {
@@ -61,7 +59,7 @@ nav {
   flex-direction: column;
   justify-content: flex-end;
   height: 100vh;
-  padding-left: 4em;
+  padding-left: 3em;
   padding-bottom: 5em;
   gap: 0.8em;
 }
@@ -70,6 +68,7 @@ nav {
   color: white;
   background-image: url(./images/galaxy-sm.png);
   background-size: cover;
+  background-position: bottom;
 }
 
 .middiv {
